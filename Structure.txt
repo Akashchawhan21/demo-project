@@ -1,0 +1,37 @@
++--------------------------------------------------------------------------------+
+|                         MY COLLEGE WEBSITE (Header + Logo)                     |
++--------------------------------------------------------------------------------+
+|   [Quick Access]      |  [Main Content Area]                                   |
+|   ----------------    |                                                       |
+|   📚 Syllabus         |   [Banner Image + Short Intro About College]          |
+|   📄 Question Papers  |                                                       |
+|   🎥 Lesson Videos    |   [Notice / Announcement Section]                     |
+|   🎓 Courses          |                                                       |
+|                       |-------------------------------------------------------|
+|                       |                                                       |
+|                       |   SYLLABUS SECTION                                    |
+|                       |   Course → Year → Semester → PDF Download/Upload      |
+|                       |                                                       |
+|                       |-------------------------------------------------------|
+|                       |                                                       |
+|                       |   QUESTION PAPERS SECTION                             |
+|                       |   Course → Year → Subject → PDF Download              |
+|                       |   + Search/Filter                                     |
+|                       |                                                       |
+|                       |-------------------------------------------------------|
+|                       |                                                       |
+|                       |   LESSON VIDEOS SECTION                               |
+|                       |   Course → Subject → Embedded Video/Link              |
+|                       |                                                       |
+|                       |-------------------------------------------------------|
+|                       |                                                       |
+|                       |   COURSES SECTION                                     |
+|                       |   Grid/List of Courses                                |
+|                       |   → Each links to Syllabus / Papers / Videos          |
+|                       |                                                       |
+|                       |-------------------------------------------------------|
+|                       |                                                       |
+|                       |   CONTACT / COLLEGE INFO                              |
+|                       |   Address | Phone | Email | Map                       |
+|                       |                                                       |
++--------------------------------------------------------------------------------+
