@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>College Website - Home</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+    }
+    header {
+      background: #003366;
+      color: white;
+      padding: 20px 40px;
+      text-align: center;
+    }
+    nav {
+      background: #00509e;
+      padding: 10px;
+      text-align: center;
+    }
+    /* Navigation bar */
+nav {
+  background: #00509e;
+  padding: 10px;
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  display: inline-block;
+  position: relative;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  display: block;
+}
+nav a:hover {
+  background: #003f7f;
+  border-radius: 5px;
+}
+.dropdown {
+  display: none;
+  position: absolute;
+  background: #3a86ff;
+  padding: 10px 0;
+  min-width: 180px;
+  text-align: left;
+  border-radius: 5px;
+}
+.dropdown li {
+  display: block;
+}
+nav ul li:hover .dropdown {
+  display: block;
+}
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      color: #007ea7; 
+      background-color: white;
+      margin-top: 0px;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 50px;
+      text-shadow: 2px 2px 5px #000;
+    }
+    .container {
+      padding: 40px;
+      text-align: center;
+    }
+    .courses {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 30px;
+      flex-wrap: wrap;
+    }
+    h3{
+      color:#072ac8;
+    }
+    .course-card {
+      background: #fff9ec;
+      width: 300px;
+      margin: 15px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+    .course-card:hover {
+      transform: translateY(-5px);
+    }
+   .img-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  height: 400px;           
+}
+.logo{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+   transform: translateY(-5px);  
+     
+}
+.img {
+  max-width: 100%;
+  width:700px;
+  height: 300px;
+   transform: translateY(-5px);
+}
+.as{
+  text-align:center;
+  padding-top: 0px;
+  gap:3rem;
+  padding-bottom: 10px;
+  transition: 0.3s;
+}
+    
+    .ash{
+      text-align: center;
+    }
+    footer {
+      background: #003366;
+      color: #edf2f4;
+      font-size: 20px;
+      height:auto;
+      width:100%;
+      padding: auto;
+      text-align: center;
+      margin:auto;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>GFGC Dandeli</h1>
+    <p>Empowering Students for a Brighter Future</p>
+  </header>
+
+  
+   <!-- Navigation -->
+<nav>
+  <ul class="navbar">
+    <li><a href="#">Home</a></li>
+    <li>
+      <a href="#">About Us ▾</a>
+      <ul class="dropdown">
+        <li><a href="#">History</a></li>
+        <li><a href="#">Mission & Vision</a></li>
+        <li><a href="#">Principal’s Message</a></li>
+        <li><a href="#">Faculty</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">Courses ▾</a>
+      <ul class="dropdown">
+        <li><a href="#">BCA</a></li>
+        <li><a href="#">B.Sc</a></li>
+        <li><a href="#">B.Com</a></li>
+        <li><a href="#">B.A</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">Syllabus ▾</a>
+      <ul class="dropdown">
+        <li><a href="#">BCA Syllabus</a></li>
+        <li><a href="#">B.Sc Syllabus</a></li>
+        <li><a href="#">B.Com Syllabus</a></li>
+        <li><a href="#">B.A Syllabus</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">Question Papers ▾</a>
+      <ul class="dropdown">
+        <li><a href="#">BCA Papers</a></li>
+        <li><a href="#">B.Sc Papers</a></li>
+        <li><a href="#">B.Com Papers</a></li>
+        <li><a href="#">B.A Papers</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+
+  
+  <marquee behavior="scroll" direction="left" scrollamount="6" style="background:#90E0EF; color:#00072d; font-weight:bold; padding:10px; font-size:18px;">
+  🚀 Admissions are Open for 2025 - Apply Now!
+</marquee>
+<div class="logo">
+  <img src="logo.png" alt="College Campus" >
+</div>
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Knowledge • Discipline • Excellence</h1>
+  </section>
+  <div class="img-container">
+  <img src="c.jpeg" alt="College Campus" class="img">
+</div>
+  <h2 class="as"><u>GFGC Dandeli</u></h2>
+  <p style="font-size:18px; color:#0a2472; margin-top:10px; text-align:center;">
+    GFGC Dandeli – A place where knowledge meets excellence.  
+    Our campus fosters creativity, discipline, and growth for every student.
+  </p>
+  <hr>
+  <div class="img-container">
+  <img src="group.jpeg" alt="College Campus" class="img">
+</div>
+<h2 class="as"><u>Campus</u></h2>
+ 
+  <p style="font-size:18px; color:#0a2472; margin-top:10px; text-align:center;">
+   Our campus offers a peaceful and inspiring environment for learning, growth, and development. 
+   Surrounded by greenery, it provides students with the perfect balance of academics and recreation. 
+   The well-maintained classrooms, modern laboratories, spacious library, and digital facilities ensure quality education, 
+   while the playgrounds, cultural spaces, and activity centers encourage students to explore their talents beyond academics.
+  The campus also has dedicated spaces for relaxation and interaction,
+   making it a vibrant place where students feel at home
+  </p>
+  <hr>
+
+  <div class="img-container">
+  <img src="lab.jpeg" alt="College Campus" class="img">
+</div>
+
+  <h2 class="as"><u>Computer Lab</u></h2>
+  <p style="font-size:18px; color:#0a2472; margin-top:10px; text-align:center;">
+    Equipped with modern computers, high-speed internet, and advanced software, 
+    our computer lab empowers students to develop technical skills and work on real-world projects in a practical environment.
+  </p>
+  <hr>
+
+  <div class="img-container">
+  <img src="lib.jpeg" alt="College Campus" class="img">
+</div>
+<h2 class="as"><u>Library</u></h2>
+ 
+  <p style="font-size:18px; color:#0a2472; margin-top:10px; text-align:center;">
+   Our library is a treasure trove of knowledge with thousands of books, journals, 
+   and e-resources to support students learning and research.
+    It offers a quiet, comfortable environment perfect for study and exploration.
+  </p>
+  <hr>
+
+  <div class="img-container">
+  <img src="ground.jpeg" alt="College Campus" class="img">
+  
+</div>
+  <h2 class="as"><u>Play Ground</u></h2>
+  <p style="font-size:18px; color:#0a2472; margin-top:10px; text-align:center;">
+    Our spacious playground encourages sportsmanship, teamwork, 
+    and fitness. It offers facilities for multiple sports including cricket, 
+    football, and athletics to promote a healthy lifestyle.
+  </p>
+  <hr>
+
+  <!-- Main Content -->
+  <div class="container">
+    <h2><u>our courses</u></h2>
+    <div class="courses">
+      <div class="course-card">
+        <h3><u>Bachelor of Computer Application</u></h3>
+        <p>Explore programming, AI, and web technologies.</p>
+      </div>
+      <div class="course-card">
+        <h3><u>Bachelor of Science</u></h3>
+        <p>Scientific, Technical, and research-oriented disciplines.</p>
+      </div>
+      <div class="course-card">
+        <h3><u>Bachelor of Commerce</u></h3>
+        <p>Business, Finance, and commerce-related subjects.</p>
+      </div>
+      <div class="course-card">
+        <h3><u>Bachelor of Arts</u></h3>
+        <p>Emphasizing humanities, Social sciences, and Liberal arts.</p>
+      </div>
+    </div>
+  </div>
+<!-- Contact Section -->
+<section id="contact" style="padding:40px; background:#f1f1f1;">
+  <h2 style="text-align:center; color:#003366;"><u>Contact Us</u></h2>
+  <div style="display:flex; flex-wrap:wrap; justify-content:space-around; margin-top:30px;">
+
+    <!-- Contact Info -->
+     
+    <div class="ash" style="flex:1; min-width:300px; margin:20px;">
+      <h3>📍 Address</h3>
+      <p> ,GFGC Dandeli,<br> College Road,<br> Dandeli, Karnataka, India </p>
+
+      <h3>📞 Phone</h3>
+      <p><a href="tel:+911234567890" style="color:black; text-decoration:none;">+91 12345 67890</a></p>
+
+      <h3>📧 Email</h3>
+      <p><a href="mailto:info@gfgcdandeli.ac.in" style="color:black; text-decoration:none;">info@gfgcdandeli.ac.in</a></p>
+
+      <h3>🕒 Office Hours</h3>
+      <p>Mon – Sat: 9:00 AM – 4:00 PM</p>
+    </div>
+<!-- Footer Section -->
+<footer style="background:#222; color:#fff; padding:20px 0; text-align:center;">
+  <div class="footer-content">
+    <p>&copy; 2025 GFGC Dandeli. All Rights Reserved.</p>
+  </div>
+</footer>
+</body>
+</html>
