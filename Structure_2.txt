@@ -17,6 +17,7 @@ my-college-website/
 │   ├── images/       (Logos, banner, college photos)
 │   ├── syllabus/     (PDF syllabus files)
 │   ├── papers/       (PDF question papers)
+|   |__ videos         (based on syllabus)
 
 
 
